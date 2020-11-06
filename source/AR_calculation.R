@@ -180,7 +180,7 @@ for (i in 1:AR_results[,.N]) {
   AR_results$AR[i] <- calcAR(dt, AR_results$day[i])
 }
 
-# look at the results
+# look at the obtained results
 AR_results
 
 
