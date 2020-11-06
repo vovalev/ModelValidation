@@ -75,10 +75,14 @@ calcAR <- function(data, varname) {
 ###########################################################################
 
 # path to the data (you may customize this)
-path <- paste0(getwd(),"/data/1_1_type.csv")
+path <- paste0(getwd(),"/data/data_new/1_1_type.csv")
+
 # and for other files
-# path <- paste0(getwd(),"/data/3_1_1_type.csv")
-# path <- paste0(getwd(),"/data/7_1_type.csv")
+# path <- paste0(getwd(),"/data/data_new/3_1_1_type.csv")
+# path <- paste0(getwd(),"/data/data_new/7_1_type.csv")
+
+
+
 
 # Read the data into variable dt
 dt <- fread(file = path, sep = ";")
